@@ -131,5 +131,6 @@ const init = function () {
   searchView.renderResults(controlSearchResult);
   paginationView.pageHandlerClick(controlPage);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('Welcome the App is working just fine');
 };
 init();
